@@ -77,10 +77,15 @@ main {
     justify-content: center;
     align-items: center;
 
+    margin-bottom: 30px;
+
     h1 {
         font-size: 60px;
         color: $primary-text;
+        text-align: center;
+        margin-bottom: 30px ;
     }
+
 }
 
 
