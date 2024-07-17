@@ -71,6 +71,18 @@ main {
     align-items: center;
 }
 
+.us-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+        font-size: 60px;
+        color: $primary-text;
+    }
+}
+
 
 @media (min-width: 1080px) {
     .main-section {
