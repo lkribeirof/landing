@@ -10,6 +10,11 @@
 .container-card {
     width: 609px;
     margin: 50px;
+
+    img {
+        border: 1px solid $primary-text;
+        border-radius: 10px;
+    }
 }
 
 .card-text {

@@ -1,0 +1,32 @@
+@import "../../../color-variables.scss";
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    justify-content: space-between;
+
+    height: 150px;
+
+    .link-footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 10px;
+
+        margin-right: 20px;
+    }
+
+    .logo {
+        
+        font-size: 40px;
+        font-family:'Courier New', Courier, monospace;
+        font-weight: bold;
+        margin-left: 20px;
+
+        background: -webkit-linear-gradient($primary-color, $light-primary-color);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
